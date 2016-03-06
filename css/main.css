@@ -1,0 +1,33 @@
+header{
+  background: #009688;
+  height: 200px;
+  }/*Inserta tu css aqui*/
+body{
+  background: #ddd;
+}
+.caja{
+  border: solid 1px #bbb;
+  position: absolute;
+  left: 15%;
+  top: 40px;
+  width: 70%;
+  height: 800px;
+  background: #fff;
+}
+.columna{
+  width: 40%;
+  height: 800px;
+  border-right: solid 1px #bbb;
+}
+.bloque{
+  width: 60%;
+  height: 800px;
+}
+.cabeza{
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #bbb;
+}
+.lineal{
+  display: inline-block;
+}
