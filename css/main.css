@@ -44,11 +44,10 @@ body{
 }
 .chat{
   background:url(../image/chat-panel-bg.png);
-  overflow-y: scroll;
   width: 100%;
   height:500px;
   border-bottom: solid 1px #bbb;
-}
+  }
 .contactos{
   overflow-y: scroll;
   width: 100%;
@@ -73,16 +72,47 @@ body{
   width: 100%
 }
 .name{
-  margin: -10px 5px;
+  margin: -8px 5px;
 }
 .iconos{
   float: right;
-  margin-top: 15px
+  margin-top: 15px;
 }
-.mensaje{
+.escribe{
   background: #ddd;
   padding: 10px;
 }
 #mensaje{
   width: 90%;
+}
+.mensaje-r{
+  width: 300px;
+  height: auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  position: relative;
+}
+.mensaje-e{
+  width: auto;
+  height: auto;
+  background: #c6ffb3;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  margin-left: 300px;
+  position: relative;
+}
+.op-j{
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-top: 70px;
+  overflow-y: scroll;
+}
+.hora{
+  float: right;
+  margin-top: 10px;
 }
