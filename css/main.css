@@ -1,6 +1,6 @@
 header{
   background: #009688;
-  height: 200px;
+  height: 150px;
   }/*Inserta tu css aqui*/
 body{
   background: #ddd;
@@ -11,23 +11,56 @@ body{
   left: 15%;
   top: 40px;
   width: 70%;
-  height: 800px;
+  height: 600px;
   background: #fff;
 }
 .columna{
   width: 40%;
-  height: 800px;
+  height: 100%;
   border-right: solid 1px #bbb;
 }
 .bloque{
   width: 60%;
-  height: 800px;
+  height: 100%;
+  box-sizing: border-box;
+  margin:0px;
+  position: relative;
+  float: right;
 }
 .cabeza{
+  background:#eee;
   width: 100%;
   height: 50px;
   border-bottom: solid 1px #bbb;
 }
 .lineal{
   display: inline-block;
+}
+.buscar{
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #bbb;
+  padding: 7px;
+}
+.chat{
+  background:url(../image/chat-panel-bg.png);
+  overflow-y: scroll;
+  width: 100%;
+  height:500px;
+  border-bottom: solid 1px #bbb;
+}
+.contactos{
+  overflow-y: scroll;
+  width: 100%;
+  height:500px;
+}
+.burbuja{
+  border-radius: 100%;
+
+}
+.amigo{
+  height: 60px;
+  padding: 10px;
+  border-bottom: solid 1px #bbb;
+  width: 100%
 }
