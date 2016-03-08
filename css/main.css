@@ -66,13 +66,14 @@ body{
   margin:8px;
 }
 .amigo{
-  height: 70px;
+  height: 75px;
   padding: 10px;
   border-bottom: solid 1px #bbb;
   width: 100%
 }
 .name{
   margin: -8px 5px;
+  width: 80%;
 }
 .iconos{
   float: right;
@@ -101,7 +102,7 @@ body{
   padding: 5px;
   border-radius: 5px;
   margin: 3px;
-  margin-left: 300px;
+  margin-left: 280px;
   position: relative;
 }
 .op-j{
@@ -115,4 +116,16 @@ body{
 .hora{
   float: right;
   margin-top: 10px;
+}
+.andrea{
+  color: #1ad1ff;
+}
+.mariana{
+  color: #ff1a8c;
+}
+.paula{
+  color: #33ffad;
+}
+.aldo{
+  color: #ffcc00;
 }
