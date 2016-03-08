@@ -3,8 +3,11 @@
 }
 
 @media screen and (max-width:760px) {
-    aside.w-contacts {
+    div.bloque {
         display: none;
+    }
+    div.columna{
+    	width: 100%;
     }
 }
 
