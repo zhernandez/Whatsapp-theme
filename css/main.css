@@ -1,7 +1,7 @@
 header{
   background: #009688;
   height: 150px;
-  }/*Inserta tu css aqui*/
+  }
 body{
   background: #ddd;
 }
@@ -95,7 +95,7 @@ body{
   margin: 3px;
   position: relative;
 }
-.mensaje-e{
+.mensaje-e, li{
   width: auto;
   height: auto;
   background: #c6ffb3;
