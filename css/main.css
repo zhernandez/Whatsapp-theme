@@ -104,6 +104,7 @@ body{
   margin: 3px;
   margin-left: 280px;
   position: relative;
+  list-style: none;
 }
 .op-j{
   width: 100%;
